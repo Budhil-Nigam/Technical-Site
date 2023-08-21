@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="./styles(project3).css">
+    <title>Python Guide</title>
+  </head>
+  <body>
+      <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#Advantages" class="nav-link">Advantages</a></li>
+          <li><a href="#Disadvantages" class="nav-link">Disadvantages</a></li>
+          <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+          <li><a href="#Keywords" class="nav-link">Keywords</a></li>
+          <li><a href="#Identifiers" class="nav-link">Identifiers</a></li>
+          <li><a href="#Expressions" class="nav-link">Expressions</a></li>
+          <li><a href="#Statement" class="nav-link">Statement</a></li>
+          <li><a href="#Comments" class="nav-link">Comments</a></li>
+          <li><a href="#Functions" class="nav-link">Functions</a></li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python programming language was developed by <b>Guido Van Rossum</b> in February 1991.It is based on two programming language:</p>
+        <ul>
+          <li>ABC language</li>
+          <li>Modula-3</li>
+        </ul>
+        <p>Python is an easy-to-learn yet powerful object oriented programming language. It is a very high level programming language and yet as powerful as languages like C, C++, Java, etc.</p>
+      </section>
+      <section class="main-section" id="Advantages">
+        <header>Advantages</header>
+        <ol type="i">
+          <li><b>Easy to use:</b><p>Python is compact and very easy to use object oriented language.</p><p>It is a very high level language and thus very-very programmer friendly</p>
+          </li>
+          <li>
+            <b>Expressive language</b>
+            <p>Python is an expressive language - fewer lines of code ad simpler syntax</p>
+          </li>
+          <li><b>Interpreted language</b>
+            <p>It is a interpreted language, not a compile language. It makes Python an easy-to-debug language and hence suitable for beginners to advanced users.</p>
+          </li>
+          <li>
+            <b>Free and Open Source</b>
+            <p>Python language is freely available along with its source-code.</p>
+          </li>
+          <li>
+            <b>Cross-platform language</b>
+            <p>Python can run equally well on variety of platforms - Windows, Linux/UNIX, Macintosh, supercomputers. Hence, python is a portable language.</p>
+          </li>
+          <li>
+            <b>Variety of Usage/Applications</b>
+            <p>Python has evolved into a powerful, complete and useful language over these years. These days Python is being used in many diverse fields/applications, some of which are:<ul>
+                <li>Scripting</li>
+                <li>Web Applications</li>
+                <li>Database Applications</li>
+                <li>GUI Programs</li>
+              </ul>
+            </p>
+          </li>        
+        </ol>
+      </section>
+      <section class="main-section" id="Disadvantages">
+        <header>Disadvantages</header>
+        <ol type="i">
+          <li>
+            <b>Not the fastest language</b>
+            <p>Fully compiled languages are faster than their interpreted counterparts.Hence, Python offers faster development times but execution-times are not that fast.</p>
+          </li>
+          <li><b>Lesser libraries than C, Java, Perl</b>
+            <p>Python offers library support for almost all programs but it is still not competent with languages like C, Java, Perl as they have larger collections available.</p>
+          </li>
+          <li>
+            <b>Not Strong on Type-binding</b>
+            <p>python interpreter is not very strong on catching 'Type-mismatch' issues.<p>
+          </li>
+          <li>
+            <b>Not Easily Convertible</b>
+            <p>Because of lack of syntax, it becomes a disadvantage when it comes to translating a program into another programming language.</p>
+          </li>
+        </ol>
+      </section>
+      <section id="Hello_World" class="main-section">
+        <header>Hello World</header>
+        <p>To get started with Python, open Python IDLE, and write your first "Hello World" python code.</p>
+        <br>
+        <code>print("Hello World")</code>
+        <br>
+        <p>Copy and paste the code above and click 'Run' the program</p>
+        <p>Congratulations! You have done your first Python program.</p>
+      </section>
+      <section class="main-section" id="Keywords">
+        <header>Keywords</header>
+        <p>Keywords are words that convey special meaning to the language compiler/interpreter.These are reserved for special purpose and must not be used as normal identifier names.</p>
+      </section>
+      <section class="main-section" id="Identifiers">
+        <header>Identifiers</header>
+        <p>Identifiers are fundamental building blocks of a program and are used as the general terminology for the names given to different parts of the program viz. variables, objects, classes, functions, lists, dictionaries etc.</p>
+        <ul>
+          <li>An identifier is an arbitrarily long sequence of letters and digits.</li>
+          <li>The first character must be a letter or an underscore(_).</li>
+          <li>Upper and lower case characted are different.</li>
+          <li>The digits 0 to 9 can be part of identifier except the first character.</li>
+          <li>Identifier must not be a keyword of Python.</li>
+          <li>An identifier cannot contain any special character except underscore.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Expressions">
+        <header>Expressions</header>
+        <p>An expression is any legal combination of symbols that represent a value. An expression is something which Python evaluates and then produces a value.</p>
+        <code>5+3</code>
+        <br>
+        <code>6/3</code>
+        <br>
+        <code>14//3</code>
+        <br>
+        <code>(4+5)/3</code>
+      </section>
+      <section class="main-section" id="Statement">
+        <header>Statement</header>
+        <p>A statement is a programming instruction taht does something i.e., some action takes place.</p>
+        <code> print("Hello")</code>
+        <br>
+        <code>
+          a=15
+          b=a-10
+          print (a+3)
+        </code>
+      </section>
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <p>Comments are the additional readable information, which is read by the programming but ignored by Python interpreter.</p>
+        <code>#This program shows a program's components</code>
+        <br>
+        <code>#Definition of function <i>SeeYou</i>() follows</code>
+        <br>
+        <code>#Main program code follows now</code>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>A function is a code that has a name and it can be reused by specifying its name in the program, where needed.</p>
+        <code>SeeYou()</code>
+        <br>
+        <code>calcsqroot()</code>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <p>Most of the content has been used from 'Computer Science with Python Class XI Sumita Arora'</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+
